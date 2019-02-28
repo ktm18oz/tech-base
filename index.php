@@ -213,7 +213,6 @@ foreach ($stmt as $row) {
   echo $row[1].' ';
   echo $row[2].' ';
   echo $row[3].' ';
-  echo $row[4];//pwd
   echo '<br />';
 }
 ?>
