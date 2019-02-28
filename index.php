@@ -1,8 +1,8 @@
 <?php
 //(3-1)MySQLに接続する
-$dsn = 'mysql:dbname=tt_844_99sv_coco_com; host=localhost; charset = utf8';
-$user = 'tt-844.99sv-coco';
-$password = 'h4QSuCp8';
+$dsn = 'mysql:dbname='db_name'; host=localhost; charset = utf8';
+$user = 'user_name';
+$password = 'password';
 $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
 ?>
 
